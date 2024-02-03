@@ -55,22 +55,7 @@ nav {
 .menu ul li:hover::after{
   width: 100%;
 }
-@media(max-width: 700px){
-  .menu ul li{
-      display: block;
-  }
-  .menu{
-      position: absolute;
-      background: #e2c108;
-      height: 100vh;
-      width: 200px;
-      top: 0;
-      right: 0;
-      text-align: right;
-      z-index: 2;
-  }
 
-}
 ::-webkit-scrollbar {
   width: 15px;
 }
