@@ -120,6 +120,20 @@ footer p {
   margin-left: 10%;
   font-family:Georgia, 'Times New Roman', Times, serif;
 }
+#team {
+  text-align: left;
+  width: 60%;
+  box-sizing: border-box;
+  margin-left: 10%;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#contact {
+  text-align: left;
+  width: 60%;
+  box-sizing: border-box;
+  margin-left: 10%;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
 #img {
   width: 100%;
 }
