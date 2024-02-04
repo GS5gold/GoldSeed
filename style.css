@@ -80,9 +80,7 @@ h1, h2 {
   text-align: center;
 }
 
-section {
-  padding: 50px 0;
-}
+
 
 footer {
   background-color:  #e6c660;
@@ -95,29 +93,27 @@ footer p {
 }
 
 .home {
-  display: flex;
-  flex-wrap: wrap;
-  max-height: 900px;
+  padding-left: 10%;
+  padding-right: 5%;
+  display: inline-flex;
+  flex-wrap:wrap;
+  max-height: 1000px;
 }
 #home {
-  text-align:justify;
-  width: 60%;
+  text-align:left;
+  max-width: 600px;
   box-sizing: border-box;
-  margin-left: 10%;
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  font-size: 18px;
 }
-#img {
-  height: 400px;
-  width: 20%;
-  margin-left: 9%;
+.responsive {
+  width: 100%;
+  min-width: 100px;
+  height: auto;
+  text-align: center;
 }
 
-img {
-  margin-right: 10%;
-  max-height: 80%;
-  height: auto;
-  display: block;
-}
+
 .animate-charcter{
 
   margin-left: 5%;
