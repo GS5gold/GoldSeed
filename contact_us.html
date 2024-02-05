@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>GoldSeed - Contact</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="stylec.css">
   
   <link rel="icon" type="image/x-icon" href="logo.jpg">
 </head>
@@ -18,7 +18,7 @@
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="service.html">Service</a></li>
-            <li><a href="team.html">Team</a></li>
+            <!--<li><a href="team.html">Team</a></li>-->
             <li><a href="contact_us.html">Contact us</a></li>
         </ul>
       </div>
@@ -27,10 +27,47 @@
   </header>
 <h2>Contact Us</h2>
   <section id="contact">
-    
-    <p>miks ir liels nabags kuram nav naudas</p>
   </section>
+  <link href="contact-form.css" rel="stylesheet">
 
+  <div class="fcf-body">
+  
+      <div id="fcf-form">
+      <h3 class="fcf-h3">Contact us</h3>
+  
+      <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+          
+          <div class="fcf-form-group">
+              <label for="Name" class="fcf-label">Your name</label>
+              <div class="fcf-input-group">
+                  <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+              </div>
+          </div>
+  
+          <div class="fcf-form-group">
+              <label for="Email" class="fcf-label">Your email address</label>
+              <div class="fcf-input-group">
+                  <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+              </div>
+          </div>
+  
+          <div class="fcf-form-group">
+              <label for="Message" class="fcf-label">Your message</label>
+              <div class="fcf-input-group">
+                  <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+              </div>
+          </div>
+  
+          <div class="fcf-form-group">
+              <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+          </div>
+      </form>
+      </div>
+  
+  </div>
+  <br>
+  <br>
+  <hr>
   <footer>
     <p>&copy; 2023 GoldSeed. All rights reserved.</p>
   </footer>
