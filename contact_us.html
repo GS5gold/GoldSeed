@@ -28,43 +28,30 @@
 <h2>Contact Us</h2>
   <section id="contact">
   </section>
-  <link href="contact-form.css" rel="stylesheet">
-
-  <div class="fcf-body">
-  
-      <div id="fcf-form">
-      <h3 class="fcf-h3">Contact us</h3>
-  
-      <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
-          
-          <div class="fcf-form-group">
-              <label for="Name" class="fcf-label">Your name</label>
-              <div class="fcf-input-group">
-                  <input type="text" id="Name" name="Name" class="fcf-form-control" required>
-              </div>
-          </div>
-  
-          <div class="fcf-form-group">
-              <label for="Email" class="fcf-label">Your email address</label>
-              <div class="fcf-input-group">
-                  <input type="email" id="Email" name="Email" class="fcf-form-control" required>
-              </div>
-          </div>
-  
-          <div class="fcf-form-group">
-              <label for="Message" class="fcf-label">Your message</label>
-              <div class="fcf-input-group">
-                  <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
-              </div>
-          </div>
-  
-          <div class="fcf-form-group">
-              <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
-          </div>
-      </form>
+  <section class="formcarry-container">
+    <form action="https://formcarry.com/s/oP5UGxP4Q8a" method="POST" enctype="multipart/form-data">
+      
+      <div class="formcarry-block">
+        <label for="fc-generated-1-name">Full Name</label>
+        <input type="text" name="name" id="fc-generated-1-name" placeholder="Your first and last name" />
       </div>
-  
-  </div>
+      
+      <div class="formcarry-block">
+        <label for="fc-generated-1-email">Your Email Address</label>
+        <input type="email" name="email" id="fc-generated-1-email" placeholder="example@domain.com" />
+      </div>
+      
+      <div class="formcarry-block">
+        <label for="fc-generated-1-message">Your message</label>
+        <textarea name="message" name="message" id="fc-generated-1-message" placeholder="Enter your message..."></textarea>
+      </div>
+      
+      <div class="formcarry-block">  
+        <button type="submit">Send</button>
+      </div>
+    
+    </form>
+  </section>
   <br>
   <br>
   <hr>
