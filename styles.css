@@ -228,3 +228,7 @@ html, body {
   margin-top: 10px;
   font-family: Verdana,Geneva,Tahoma,sans-serif;
 }
+#button {
+  color: inherit;
+  text-decoration: inherit;
+}
